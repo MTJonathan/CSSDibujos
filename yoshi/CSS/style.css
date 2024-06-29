@@ -1,0 +1,154 @@
+:root{
+    --colorVerde : #00B501;
+    --borde : 4px solid black;
+}
+
+.yoshi{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+.cabezaContainer{
+    width: 80%;    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peloContainer{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    translate: -165px;
+}
+.pelo{
+    background-color: #E86126;
+    width: 60px;
+    height: 55px;
+    rotate: 30deg;
+    border: var(--borde);
+}
+.pelo:nth-child(1){
+    translate: -10px 10px;
+}
+.pelo:nth-child(2){
+    rotate: 35deg;
+    translate: 0 10px;
+}
+.pelo:nth-child(3){
+    rotate: 70deg;
+    translate: -18px 0;
+}
+.ojosContainer{
+    width: 320px;
+    height: 230px;
+    align-self: start;
+    display: flex;
+    z-index: 5;
+}
+.ojos{
+    background-color: var(--colorVerde);
+    width: 100px;
+    height: 220px;
+    border-radius: 50%;
+    border: var(--borde);
+    display: flex;
+    align-items: end;
+}
+.retina{
+    background-color: white;
+    width: 80px;
+    height: 170px;
+    border-radius: 50%;
+    border: var(--borde);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.pupila{
+    background-color: black;
+    width: 32px;
+    height: 60px;
+    border-radius: 50%;
+    border: var(--borde);
+    display: flex;
+    justify-content: end;
+}
+.brillo{
+    background-color: white;
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    translate: -4px 10px;
+}
+.ojoDerecho{
+    translate: -18px 0;
+}
+.cabezaItem{
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border: var(--borde);
+    border-radius: 50%;
+    z-index: 3;
+    translate: 20px 10px;
+    background-image: linear-gradient(180deg, #00B501 40%, white 70%);
+}
+.boca{
+    background-color: white;
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    border: var(--borde);
+    border-radius: 50%;
+    border-top: none;
+    border-right: none;
+    rotate: 15deg;
+    translate: -3px 110px;
+}
+.lengua{
+    background-color: red;
+    width: 60px;
+    height: 90px;
+    border: var(--borde);
+    border-radius: 50%;
+    translate: 20px 20px;
+}
+.narizContainer{
+    width: 240px;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    z-index: 6;
+    translate: 130px -60px;
+}
+.nariz{
+    background-color: var(--colorVerde);
+    width: 100%;
+    height: 170px;
+    border-radius: 50%;
+    border: var(--borde);
+    display: flex;
+    gap: 10px;
+}
+.fosas{
+    border: 4px solid black;
+    width: 35px;
+    height: 23px;
+    border-radius: 50%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    translate: 32px 23px;
+}
+.fosaIzquierda{
+    rotate: 30deg;
+}
+.fosaDerecha{
+    rotate: -30deg;
+}
