@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.kirby{
+    position: relative;
+}
+.cuerpo{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color:#FF8EA6;
+    border-radius: 50%;
+    border: 5px solid black;
+    z-index: 2;
+}
+.ojosContainer{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+.ojos{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 110px;
+    background-image: linear-gradient(180deg, #000501 58%,#032367, #004B8E);
+    border-radius: 50%;
+    border: 5px solid black;
+    translate: 0px 55px;
+}
+.pupila{
+    width: 32px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+}
+.boca{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    width: 100px;
+    height: 100px;
+    background-color: #964F55;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 5px solid black;
+    translate: 0px 70px;
+    translate: 115px 80px;
+    overflow: hidden;
+}
+.lengua{
+    width: 100px;
+    height: 80px;
+    background-color: #FE686A;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 5px solid black;
+    border-bottom: none;
+    translate: 0px 20px;
+}
+.mejilla{
+    position: absolute;
+    right: 0px;
+    width: 85px;
+    height: 45px;
+    background-color: #FF7380;
+    border-radius: 50%;
+    translate: -15px -32px;
+    rotate: -15deg;
+}
+.mejillaIzquierda{
+    left: 0;
+    rotate: 15deg;
+    translate: 15px -32px;
+}
+.piesContainer{
+    display: flex;
+    translate: -35px -130px;
+    z-index: 1;
+    gap: 20px;
+}
+.pie{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 200px;
+    height: 120px;
+    background-color: #EF1459;
+}
+.brillo{
+    background-color: #FE6777;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.pieDerecho{
+    justify-content: end;
+}
+.mano{
+    position: absolute;
+    width: 200px;
+    height: 105px;
+    background-color: #FF8EA6;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.manoIzquierda{
+    translate: -65px 70px;
+    rotate: 32deg;
+}
+.manoDerecha{
+    right: 0;
+    translate: -5px -260px;
+    rotate: 32deg;
+}
