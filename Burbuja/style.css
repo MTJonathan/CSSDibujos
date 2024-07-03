@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cabeza{
+    width: 350px;
+    height: 300px;
+    background-color: #FFDCC8;
+    border-radius: 50%;
+    border: 5px solid black;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.cabelloInternoContainer{
+    display: flex;
+    position: relative;
+    translate: 0 -100px;
+    gap: 35px;
+    z-index: 3;
+}
+.cabelloInterno{
+    width: 400px;
+    height: 220px;
+    background-color: #FED13F;
+    border-radius: 50%;
+    border: 5px solid black;
+    rotate: -230deg;
+}
+.cabelloIIzquierdo{
+    rotate: 230deg;
+}
+.cabelloContainer{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    gap: 0px;
+    translate: 0 -50px;
+}
+.cabello{
+    width: 175px;
+    height: 175px;
+    background-color: #FED13F;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.ojosContainer{
+    display: flex;
+    position: absolute;
+    translate: -55px -185px;
+    gap: 45px;
+    z-index: 2;
+}
+.ojo{
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.ojoIzquierdo{
+    justify-content: end;
+    overflow: hidden;
+    translate: 0 -5px;
+}
+.azulIzquierdo{
+    translate: 15px;
+}
+.azul{
+    width: 120px;
+    height: 120px;
+    background-color: #004B8E;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.negro{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brillo{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+}
+.boca{
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    width: 65px;
+    height: 50px;
+    translate: 145px -50px;
+}
