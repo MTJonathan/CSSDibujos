@@ -1,0 +1,214 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.bebe{
+    position: relative;
+    margin-top: 50px;
+}
+.cabezaContainer{
+    position: relative;
+    z-index: 5;
+}
+.pelo{
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    border-left: 9px solid black;
+    rotate: -32deg;
+    border-radius: 50%;
+    translate: 100px -32px;
+}
+.cabeza{
+    display: flex;
+    width: 226px;
+    height: 210px;
+    background-color: #FFDBA4;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.ojosContainer{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+    translate: 35px -20px;
+}
+.ojos{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pupila{
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    translate: 0px -5px;
+}
+.pupilaDerecha{
+    translate: -25px -5px;
+}
+.brillo{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%
+}
+.brilloIzquierdo{
+    translate: 18px
+}
+.mejillaContainer{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    translate: 25px 30px;
+    gap: 40px;
+}
+.mejilla{
+    width: 40px;
+    height: 20px;
+    background-color: #FEBFCB;
+    border-radius: 50%;
+}
+.nariz{
+    width: 20px;
+    height: 20px;
+    border-top: 2.3px solid black;
+    border-radius: 50%;
+}
+.boca{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border: 2px solid black;;
+    border-radius: 0 0 100px 100px; /* Redondea las esquinas superiores */
+    background-color: #FF6469;
+    translate: 83px -65px;
+}
+.diente{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    translate: 10px;
+}
+.orejaContainer{
+    display: flex;
+    position: absolute;
+    top: 70px;
+}
+.orejas{
+    width: 23px;
+    height: 20px;
+    bottom: 0px;
+    background-color: #FFDBA4;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.orejaIzquierda{
+    translate: -18px 0;
+    border-right: transparent solid;
+}
+.orejaDerecha{
+    translate: 194px 0;
+    border-left: transparent solid;;
+}
+
+.cuerpoContainer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    background-color: #35B7EF;
+    border-radius: 50%;
+    translate: -38px -25px;
+    z-index: 4;
+    border: 2px solid black;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 180px;
+    height: 220px;
+    background-color: #ACD8E7;
+    border-radius: 50%;
+    translate: 0 -23px;
+    border: 2px solid black;
+}
+.mano{
+    width: 60px;
+    height: 60px;
+    background-color: #FFDBA4;
+    border-radius: 50%;
+    border: 2px solid black;
+    translate: 0 50px;
+}
+.dedosContainer{
+    position: absolute;
+}
+.dedos{
+    width: 30px;
+    height: 10px;
+    background-color: #FFDBA4;
+    border-radius: 50px;
+    border: 2px solid black;
+    translate: 0 35px
+}
+.pañal{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 230px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    translate: -10px -200px;
+}
+.piernasContainer{
+    display: flex;
+    gap: 315px;
+    height: 500px;
+    translate: -125px -350px;
+    z-index: 3;
+}
+.piernas{
+    width: 75px;
+    height: 300px;
+    background-color: #35B7EF;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.piernaIzquierda{
+    rotate: -130deg;
+}
+.piernaDerecha{
+    rotate: 130deg;
+}
+.pie{
+    width: 68px;
+    height: 120px;
+    background-color: #35B7EF;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.pieIzquierdo{
+    rotate: 132deg;
+    translate: 15px -18px;
+}
+.pieDerecho{
+    rotate: -132deg;
+    translate: -15px -18px;
+}
